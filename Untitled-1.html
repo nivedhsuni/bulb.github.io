@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img id="myImage" onclick="changeImage()" src="123.gif" width="1000" height="1800">
+
+<p>Click the light bulb to turn on/off the light.</p>
+
+<script>
+function changeImage() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("bulbon")) {
+    image.src = "123.gif.";
+  } else {
+    image.src = "456.gif";
+  }
+}
+</script>
+
+</body>
+</html>
